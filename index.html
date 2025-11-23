@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 3D Background -->
+    <div id="canvas-container"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Drashti Bhesaniya</span></h1>
+            <h2>Web Developer & Designer</h2>
+            <p>“Building digital experiences that feel alive, meaningful, and impossible to forget.”</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get In Touch</a>
+                <a href="Bhesaniya Drashti-Resume.pdf" class="cta-button secondary" download>Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-image" style="background-image: url('drashti.jpeg')"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I’m a creative and detail-oriented Web Developer with a strong interest in designing clean interfaces and building efficient web applications. With experience in PHP, Python, HTML, CSS, JavaScript, and machine learning projects, I love working on ideas that solve real-world problems.
+I believe in continuous learning, exploring new technologies, and delivering meaningful digital solutions.</p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Name:</span>
+                        <span class="info-value">Drashti Bhesaniya</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value">bhesaniyadrashti30@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Experience:</span>
+                        <span class="info-value">No Experience</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value">Gujarat, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                <div class="skills-list">
+                    <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="skills-list">
+                    <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                    <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-star"></i> Other Skills</h3>
+                <div class="skills-list">
+                    <span class="skill-tag"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+                    <span class="skill-tag"><i class="fas fa-users"></i> Teamwork</span>
+                    <span class="skill-tag"><i class="fas fa-comments"></i> Communication</span>
+                    <span class="skill-tag"><i class="fas fa-tasks"></i> Project Management</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/academix.png" alt="Academix - School Management System">
+                </div>
+                <div class="project-info">
+                    <h3>Academix - School Management System</h3>
+                    <p>A comprehensive school management system built with PHP and MySQL, featuring student, teacher, and admin dashboards, attendance tracking, and grade management.</p>
+                    <div class="project-links">
+                        <a href="https://academix.free.nf" target="_blank" class="project-link">Live Demo</a>
+                        <a href="https://github.com/bhesaniyadrashti/Acedemix" target="_blank" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/food_delivery.png" alt="Food Delivery Service">
+                </div>
+                <div class="project-info">
+                    <h3>Food Delivery Service Website</h3>
+                    <p>A responsive frontend website for a food delivery service built with HTML and CSS, featuring a modern UI with menu, cart functionality, and order tracking.</p>
+                    <div class="project-links">
+                        <a href="https://bhesaniyadrashti.github.io/Food-Odering-system/" target="_blank" class="project-link">Live Demo</a>
+                        <a href="https://github.com/bhesaniyadrashti/Food-Odering-system" target="_blank" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>bhesaniyadrashti30@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 87********</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/bhesaniyadrashti" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bhesaniya-drashti-871b722b3" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Drashti_2606" target="_blank" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/mrbdayzo" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </span>
+                </button>
+                <p id="form-status" class="form-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Drashti Bhesaniya. All rights reserved.</p>
+    </footer>
+
+    <!-- Notification Container -->
+    <div id="notification" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); padding: 15px 30px; background: #10b981; color: white; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); z-index: 9999;"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
